@@ -1,0 +1,37 @@
+.nav {
+  position:absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 351px;
+  &__left {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+  &__right {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-size: 14px;
+          color: black;
+        }
+      }
+    }
+  }
+}
